@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%27');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: #cccccc;
+}
+
+.wrapper{
+	width: 370px;
+    margin: 5% 35%;
+	background-color: white;
+	height: 570px;
+}
+
+.header{
+	font-size: 20px;
+	font-weight: bolder;
+	text-transform: uppercase;
+    background-color: #bbbbbb;
+    display: flex;
+    flex-direction: row;
+}
+
+.list{
+	margin-left: 140px;
+}
+
+input{
+	border: none;
+}
+
+p{
+	cursor: pointer;
+}
+
+.inp{
+	cursor: pointer;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	top: 245px;
+	margin-left:15px;
+	height: 30px;
+	width: 340px;
+	background-color: #E0E0E0;
+}
+
+.contwrapper{
+	background-color: white;
+}
+.log{
+	font-size: 20px;
+	margin: 50px 10px;
+}
+
+.inp2{
+	cursor: pointer;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	top: 330px;
+	margin-left:15px;
+	height: 30px;
+	width: 340px;
+	background-color: #E0E0E0;
+}
+
+.sub{
+	cursor: pointer;
+	margin-left: 60px;
+	font-weight: bold;
+	font-size: 20px;
+	width: 100px;
+	height: 40px;
+}
+
+.sub2{
+	cursor: pointer;
+	margin: 20% 40px;
+	font-weight: bold;
+	font-size: 20px;
+	width: 100px;
+	height: 40px;
+}
+
+.inp:focus, .inp2:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.social{
+	margin-left: 47px;
+	widht:30px;
+	height:30px; 
+}
+
+.row{
+	margin: 5% 0;
+	background-color: black;
+	width: 370px;
+	height:2px;
+}
+
+.footer{
+	display: flex;
+	
+}
+.footh{
+	position: relative;
+	top: -25px;
+	margin-left: 5px;
+	width: 70px;
+	height: 70px;
+}
+
+
+.footc{
+	position: relative;
+	top: -15px;
+	margin-left: 92px;
+	margin-top: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+
+.foots{
+	position: relative;
+	top: -23px;
+	margin-left: 110px;
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+.foots:hover, .footc:hover, .footh:hover, .social:hover{
+	cursor: pointer;
+}
