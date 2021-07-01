@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>INDEX</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <p class="list">Cadastro</p>
+        </div>
+	<div class="contwrapper">
+        <div class="content1">
+            <label for="idlogin"><p class="log">Login</p></label>
+			<input class="inp" id="idlogin" name="login" type="text">
+            <label for="idpass"><p class="log">Senha</p></label>
+			<input class="inp2" id="idpass" name="pass" type="password">
+        </div>
+		<div class="content2">
+			<input class="sub" type="submit" value="Cancelar">
+			<input class="sub2" type="submit" value="Entrar">
+		</div>
+		<div class="content3">
+			<img class="social" src="facebook.png" alt="facebook">
+			<img class="social" src="instagram.png" alt="instagram">
+			<img class="social" src="twitter.png" alt="twitter">
+			<img class="social" src="gmail.png" alt="gmail">
+		
+		</div>
+       		</div><div class="row"></div>
+		<div class="footer">
+			<img class="footh" src="amburg.png" alt="menu">
+			<img class="footc" src="home.png" alt="home">
+			<img class="foots" src="arrow.png" alt="exit">
+		</div>
+     </div>
+</body>
+</html>
